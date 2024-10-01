@@ -59,6 +59,4 @@ app.post('/checkout', async (req, res) => {
     res.redirect(session.url)
 })
 
-
-
 app.listen(3000, () => console.log('server started on port 3000'));
